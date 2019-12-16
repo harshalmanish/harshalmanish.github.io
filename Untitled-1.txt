@@ -1,0 +1,10 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        
+            <img  id="train" src="C:\Users\LENOVO\Desktop\Movie\train3.jpg" height="42" width="72">
+            
+        
+        
+       
+        <h2 style="color:white">KNOW YOUR RAILS</h2>
+
+</nav>

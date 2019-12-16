@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <style>
+        body{
+            background-image: url("scene.jpg");
+            background-color: rgba(255,255,255,0.4);
+            background-blend-mode: lighten;
+            background-attachment: fixed;
+            background-size:100% 100% ;
+        }
+        
+        #yobro{
+            background-image: linear-gradient(mediumturquoise,midnightblue);
+            border-radius:20px;
+            color: white;
+            opacity: 0.7;
+        }
+        #yobro:hover{
+
+            opacity: 1;
+            
+
+        }
+        #yobro2{
+            background-image: linear-gradient(mediumturquoise,midnightblue);
+            border-radius:20px;
+            color: white;
+            opacity: 0.7;
+        }
+
+        #yobro2:hover{
+            opacity: 1;
+        }
+@keyframes mymove{
+from{left:0px};
+to{left:100%}
+}
+.btn{
+    text-align:center;
+}
+ 
+
+
+        
+    </style>
+
+    
+</head>
+<body class="big-banner">
+    
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" style="width: 100%;">
+    
+        <img  id="train" src="download.jpg" height="42" width="62" style="margin-right: 10px;
+        animation: mymove 5s infinite">
+    <h2 style="color:white;">KNOW YOUR RAILS</h2>   
+    </nav>
+
+
+    <!-- <img src="C:\Users\LENOVO\Desktop\Movie\scene.jpg" width="100%" height="600px"> -->
+    <div class="row" id="yobro3">
+    <div  id="yobro" class="card " style="width: 18rem;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 200px;
+    border-radius: 25px;"
+    >
+        
+        <div class="card-body col-md-6" style="text-align: center;">
+          <h5 class="card-title">TRAIN ROUTE</h5>
+          <p class="card-text">Find route of the train using train number</p>
+          <a href="makde.html" class="btn btn-primary">CLICK HERE</a>
+        </div>
+      </div>
+
+
+      <div  id="yobro2"class="card" style="width: 18rem;
+      margin-top: 50px;
+      margin-bottom: 100px;
+      margin-right: 150px;
+      margin-left: 200px;"
+      >
+          <div class="card-body col-md-6">
+            <h5> TO KNOW YOUR DESTINATION WEATHER</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary">CLICK HERE</a>
+          </div>
+        </div>
+
+</div>
+    
+    
+</body>
+</html>
