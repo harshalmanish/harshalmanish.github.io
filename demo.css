@@ -105,7 +105,7 @@ select:active, select:focus {
 }
 
 body.demo-white .author-info a, body.demo-solid-white .author-info a {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 246, 0.5);
 }
 body.demo-black .author-info a, body.demo-solid-black .author-info a {
   color: rgba(0, 0, 0, 0.5);
